@@ -1,2 +1,17 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Write code below 💖
+things_to_do =[
+  'build a bike or car🚓🚗',
+  'climb the k2 mountain with friends🗻🗻',
+  'going to switzerland with my friends✈🚅',
+  'buy a house for my mother in her hometown🏡',
+  'build a farm in kazhakistan and explore new sceneries near almaty🌄🌄',
+  'write and publish a book📚📚',
+  'raise some horses and goats in my farm🐎🐎🐴',
+  '🍳 Open a cozy diner upstate.',
+   '👴🏻 Grow old with no regrets.'
+]
+things_to_do.append(input("Enter a new thing you want to do: "))
+for i in range(len(things_to_do)):
+  print(things_to_do[i])
